@@ -1,0 +1,29 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "trajanovic",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build app.js"
+  },
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.4.1",
+    "bulma": "^0.7.2",
+    "grunt": "^0.4.5",
+    "jquery": "^3.5.1",
+    "jumbotron": "^0.2.9",
+    "parcel": "^1.11.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "reactstrap": "^8.4.1",
+    "styles": "^0.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

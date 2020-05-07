@@ -1,0 +1,21 @@
+.navbar > .container {
+  justify-content: center;
+}
+li {
+  margin-right: 10px;
+  border: 3px solid red;
+  border-radius: 10px;
+  background-color: cadetblue;
+  padding: 10px;
+  box-shadow:10px 10px 5px 0px darkblue;
+}
+body{
+background-color: darkorchid;
+}
+.jumbotron{
+  background-image: url('/Priroda-40.fd452b5a.jpg');
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=/style.251b6741.css.map */
