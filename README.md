@@ -59,6 +59,12 @@ Princip rad je dosta lagan i izgleda ovako.
  2. index.js
  To je minimum koji vam treba u radu da bi ste videli kako Parcel radi.
  Ostalo potrebno zavisi ce od potreba vase aplikacije ili zahteva narucioca. 
+ 
+
+dist je osnovni ili standardni izlazni folder za Parcel Bundler, ali izlazni direktorijum se moze psotaviti upotrebom -d znakom.
+
+na primer parcel build src/index.html -d build --public-url . Gde ce te i dobiti staticke failove u tom direktorijumu. 
+
  # React-and-Parcel
 An attempt to create a web application with node react technology using Plots, but as always
 everywhere there remain some problems which innovators and constructors either do not present or leave unspecified.
