@@ -1,29 +1,31 @@
 {
-  "name": "parcel-react",
+  "name": "NoviProjekt",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "trajanovic",
-  "license": "MIT",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build app.js"
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html --public-url ./ ",
+    "production": "parcel  index.html --out-dir produkcija  --no-cache"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "assemble": "^0.3.83",
-    "boostrap": "^2.0.0",
-    "bootstrap": "^4.4.1",
-    "bulma": "^0.7.2",
-    "grunt": "^0.4.5",
-    "jquery": "^3.5.1",
-    "jumbotron": "^0.2.9",
-    "parcel": "^1.11.0",
-    "popper.js": "^1.16.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "reactstrap": "^8.4.1",
-    "styles": "^0.2.1"
+    "parcel": "^1.12.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "proper": "^0.5.1",
+    "react-strap": "0.0.1"
   }
 }
